@@ -13,4 +13,8 @@ int main() {
     } else if (number < 0) {
         std::cout << "The number is negative.\n";
     }
-    
+    else {
+        std::cout << "The number is zero.\n";
+    }
+       return 0;
+}
